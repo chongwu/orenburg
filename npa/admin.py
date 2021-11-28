@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import NPA, NPAType
 
-# Register your models here.
+admin.site.register(NPA)
+admin.site.register(NPAType)
